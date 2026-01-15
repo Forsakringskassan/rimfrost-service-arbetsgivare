@@ -2,6 +2,12 @@
 
 Changelog of rimfrost-service-arbetsgivare.
 
+## 0.1.0 (2026-01-15)
+
+### Features
+
+-  add healthcheck ([54f2c](https://github.com/Forsakringskassan/rimfrost-service-arbetsgivare/commit/54f2ceae32a65c2) Nils Elveros)  
+
 ## 0.0.2 (2025-12-02)
 
 ### Bug Fixes
