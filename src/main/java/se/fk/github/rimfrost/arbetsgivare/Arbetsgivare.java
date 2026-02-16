@@ -20,7 +20,7 @@ import org.slf4j.LoggerFactory;
  */
 @SuppressWarnings("SpellCheckingInspection")
 @ApplicationScoped
-@Path("/arbetsgivare")
+@Path("/arbetsgivare/{personnummer}")
 public class Arbetsgivare implements ArbetsgivareControllerApi
 {
    private static final Logger log = LoggerFactory.getLogger(Arbetsgivare.class);
@@ -36,12 +36,11 @@ public class Arbetsgivare implements ArbetsgivareControllerApi
    @Override
    public GetArbetsgivare200Response getArbetsgivare(String personnummer)
    {
-      log.info("Arbetsgivare received request: personnummer={}", personnummer);
       var response = new GetArbetsgivare200Response();
 
       var anstallning = new Anstallning();
       var org = new Organisation();
-      org.setNamn("Cool Arbetsgivare AB");
+      org.setNamn("Region Dalarna");
       org.setNummer("123456-7890");
 
       anstallning.setArbetstid(100);
@@ -50,16 +49,12 @@ public class Arbetsgivare implements ArbetsgivareControllerApi
       anstallning.setSlutdag(null);
 
       response.addAnstallningarItem(anstallning);
-      log.info("Arbetsgivare sending response: {}", response);
       return response;
    }
 
    @Override
    public SpecificeradLon getSpecificeradLon(String personnummer, LocalDate fromDatum, LocalDate tomDatum)
    {
-      log.info("SpecificeradLon received request: personnummer={}, period={} - {}",
-              personnummer, fromDatum, tomDatum);
-
       var response = new SpecificeradLon();
       response.setPersonnummer(personnummer);
       response.setPeriodFrom(fromDatum);
@@ -67,7 +62,7 @@ public class Arbetsgivare implements ArbetsgivareControllerApi
 
       // Skapa organisation
       var org = new Organisation();
-      org.setNamn("Cool Arbetsgivare AB");
+      org.setNamn("Region Dalarna");
       org.setNummer("123456-7890");
       response.setOrganisation(org);
 
@@ -103,10 +98,7 @@ public class Arbetsgivare implements ArbetsgivareControllerApi
       // Berakna summa: 42000 + 2000 - 2000 - 2000 = 40000
       double summa = 42000.0 + 2000.0 - 2000.0 - 2000.0;
       response.setLonesumma(summa);
-      response.setAntalLonerader(4);
 
-      log.info("SpecificeradLon sending response: lonesumma={} kr, {} lonerader",
-              response.getLonesumma(), response.getAntalLonerader());
       return response;
    }
 }
