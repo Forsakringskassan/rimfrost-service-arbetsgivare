@@ -2,6 +2,34 @@
 
 Changelog of rimfrost-service-arbetsgivare.
 
+## 0.2.0 (2026-02-19)
+
+### Features
+
+-  Add getSpecificeradLon endpoint for salary data ([c5720](https://github.com/Forsakringskassan/rimfrost-service-arbetsgivare/commit/c5720fa67c64364) Jorgen Lindstrom)  
+
+### Bug Fixes
+
+-  Ändra @Path till /arbetsgivare/{personnummer} för korrekt routing ([b1cbf](https://github.com/Forsakringskassan/rimfrost-service-arbetsgivare/commit/b1cbf8de6fc383f) Jorgen Lindstrom)  
+
+### Other changes
+
+**spotless apply**
+
+
+[431f8](https://github.com/Forsakringskassan/rimfrost-service-arbetsgivare/commit/431f83921c0159d) Jorgen Lindstrom *2026-02-19 11:52:23*
+
+**Updateded dependency rimfrost-arbetsgivare-api-jaxrs-spec to version 1.1.5 in pom.xml**
+
+
+[87e5a](https://github.com/Forsakringskassan/rimfrost-service-arbetsgivare/commit/87e5af8a79a42e6) Jorgen Lindstrom *2026-02-18 14:43:28*
+
+**Ändrat tillbaka till version 1.1.1 i pom.xml**
+
+
+[502bb](https://github.com/Forsakringskassan/rimfrost-service-arbetsgivare/commit/502bb38ed6a4d2b) Jorgen Lindstrom *2026-02-17 15:16:03*
+
+
 ## 0.1.0 (2026-01-15)
 
 ### Features
