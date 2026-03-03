@@ -2,6 +2,12 @@
 
 Changelog of rimfrost-service-arbetsgivare.
 
+## 0.2.1 (2026-03-03)
+
+### Bug Fixes
+
+-  Bump to trigger release flow ([1fb53](https://github.com/Forsakringskassan/rimfrost-service-arbetsgivare/commit/1fb53f0296bc7ca) Lars Persson)  
+
 ## 0.2.0 (2026-02-19)
 
 ### Features
