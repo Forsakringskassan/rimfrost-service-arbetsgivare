@@ -2,6 +2,12 @@
 
 Changelog of rimfrost-service-arbetsgivare.
 
+## 0.2.2 (2026-03-12)
+
+### Bug Fixes
+
+-  **deps**  update dependency se.fk.maven:fk-maven-quarkus-parent to v1.12.0 ([e8dfe](https://github.com/Forsakringskassan/rimfrost-service-arbetsgivare/commit/e8dfe82ab3e714d) renovate[bot])  
+
 ## 0.2.1 (2026-03-03)
 
 ### Bug Fixes
