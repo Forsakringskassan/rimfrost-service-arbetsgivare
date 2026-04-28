@@ -2,6 +2,20 @@
 
 Changelog of rimfrost-service-arbetsgivare.
 
+## 1.0.0 (2026-04-28)
+
+### Breaking changes
+
+-  release 1.0 ([080b2](https://github.com/Forsakringskassan/rimfrost-service-arbetsgivare/commit/080b2de83370bcf) Lars Persson)  
+
+### Features
+
+-  release 1.0 ([080b2](https://github.com/Forsakringskassan/rimfrost-service-arbetsgivare/commit/080b2de83370bcf) Lars Persson)  
+
+### Bug Fixes
+
+-  Bump rimfrost-service-arbetsgivare-openapi to released version ([9e852](https://github.com/Forsakringskassan/rimfrost-service-arbetsgivare/commit/9e8521279a139c7) Lars Persson)  
+
 ## 0.2.2 (2026-03-12)
 
 ### Bug Fixes
