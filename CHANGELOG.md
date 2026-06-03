@@ -2,6 +2,12 @@
 
 Changelog of rimfrost-service-arbetsgivare.
 
+## 1.0.1 (2026-06-03)
+
+### Bug Fixes
+
+-  bump version ([5306a](https://github.com/Forsakringskassan/rimfrost-service-arbetsgivare/commit/5306ad522a67214) Nils Elveros)  
+
 ## 1.0.0 (2026-04-28)
 
 ### Breaking changes
