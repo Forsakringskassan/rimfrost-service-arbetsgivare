@@ -1,7 +1,12 @@
 package se.fk.github.rimfrost.arbetsgivare;
 
 import jakarta.enterprise.context.ApplicationScoped;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Pattern;
+import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
+import jakarta.ws.rs.PathParam;
+import jakarta.ws.rs.QueryParam;
 import se.fk.rimfrost.api.arbetsgivare.jaxrsspec.controllers.generatedsource.ArbetsgivareControllerApi;
 import se.fk.rimfrost.api.arbetsgivare.jaxrsspec.controllers.generatedsource.model.Anstallning;
 import se.fk.rimfrost.api.arbetsgivare.jaxrsspec.controllers.generatedsource.model.GetArbetsgivare200Response;
@@ -33,8 +38,11 @@ public class Arbetsgivare implements ArbetsgivareControllerApi
       // Default constructor required to suppress warning
    }
 
+   @GET
+   @Path("/")
    @Override
-   public GetArbetsgivare200Response getArbetsgivare(String personnummer)
+   public GetArbetsgivare200Response getArbetsgivare(
+         @PathParam("personnummer") @Pattern(regexp = "^\\d{8}-\\d{4}$") String personnummer)
    {
       var response = new GetArbetsgivare200Response();
 
@@ -52,8 +60,11 @@ public class Arbetsgivare implements ArbetsgivareControllerApi
       return response;
    }
 
+   @GET
+   @Path("/specificerad-lon")
    @Override
-   public SpecificeradLon getSpecificeradLon(String personnummer, LocalDate fromDatum, LocalDate tomDatum)
+   public SpecificeradLon getSpecificeradLon(@PathParam("personnummer") @Pattern(regexp = "^\\d{8}-\\d{4}$") String personnummer,
+         @QueryParam("fromDatum") @NotNull LocalDate fromDatum, @QueryParam("tomDatum") @NotNull LocalDate tomDatum)
    {
       var response = new SpecificeradLon();
       response.setPersonnummer(personnummer);
