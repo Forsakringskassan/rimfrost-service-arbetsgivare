@@ -2,6 +2,14 @@
 
 Changelog of rimfrost-service-arbetsgivare.
 
+## 1.1.2 (2026-09-24)
+
+### Bug Fixes
+
+-  Fix REST path issue ([5b472](https://github.com/Forsakringskassan/rimfrost-service-arbetsgivare/commit/5b4726c66ff4b6d) Lars Persson)  
+
+## rimfrost-1_2 (2026-09-22)
+
 ## 1.1.1 (2026-09-22)
 
 ### Bug Fixes
