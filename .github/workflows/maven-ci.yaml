@@ -9,4 +9,4 @@ jobs:
       actions: read
       contents: read
       packages: write
-    uses: Forsakringskassan/.github/.github/workflows/bundle-maven-ci.yaml@f1a6aa2e3edc84c8d8eecf668633921fc36f8943 # temp branch
+    uses: Forsakringskassan/.github/.github/workflows/bundle-maven-ci.yaml@b0b077940bf35c524766eb2a63294647907cb661 # temp branch
