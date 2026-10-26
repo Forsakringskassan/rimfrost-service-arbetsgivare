@@ -2,13 +2,32 @@
 
 Changelog of rimfrost-service-arbetsgivare.
 
-## 1.1.2 (2026-09-24)
+## 1.1.2 (2026-10-26)
 
 ### Bug Fixes
 
 -  Fix REST path issue ([5b472](https://github.com/Forsakringskassan/rimfrost-service-arbetsgivare/commit/5b4726c66ff4b6d) Lars Persson)  
 
-## rimfrost-1_2 (2026-09-22)
+### Dependency updates
+
+- update forsakringskassan/.github digest to 733eb32 ([a3a99](https://github.com/Forsakringskassan/rimfrost-service-arbetsgivare/commit/a3a99939d6d7ad0) renovate[bot])  
+### Other changes
+
+**Restore GHCR publishing**
+
+
+[60187](https://github.com/Forsakringskassan/rimfrost-service-arbetsgivare/commit/6018774a8dff71a) Jönsson Christian (66143296) *2026-10-09 12:06:31*
+
+**Restore GHCR publishing**
+
+
+[83ece](https://github.com/Forsakringskassan/rimfrost-service-arbetsgivare/commit/83ecea82bdeae11) Jönsson Christian (66143296) *2026-10-09 09:25:17*
+
+**Restore GHCR publishing**
+
+
+[cb0c8](https://github.com/Forsakringskassan/rimfrost-service-arbetsgivare/commit/cb0c80e617a6c8c) Jönsson Christian (66143296) *2026-10-09 05:01:59*
+
 
 ## 1.1.1 (2026-09-22)
 
@@ -21,6 +40,8 @@ Changelog of rimfrost-service-arbetsgivare.
 - update forsakringskassan/.github digest to bfb01f7 ([580e7](https://github.com/Forsakringskassan/rimfrost-service-arbetsgivare/commit/580e7deccaeaf80) renovate[bot])  
 - update forsakringskassan/.github digest to d1349e6 ([9a426](https://github.com/Forsakringskassan/rimfrost-service-arbetsgivare/commit/9a426e198b97cae) renovate[bot])  
 - pin forsakringskassan/.github action to 3d07e55 ([703cc](https://github.com/Forsakringskassan/rimfrost-service-arbetsgivare/commit/703cc604191a6da) renovate[bot])  
+## rimfrost-1_2 (2026-06-03)
+
 ## rimfrost-1.1 (2026-06-03)
 
 ### Bug Fixes
