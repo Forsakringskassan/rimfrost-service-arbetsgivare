@@ -7,4 +7,4 @@ jobs:
     permissions:
       contents: write
       packages: write
-    uses: Forsakringskassan/.github/.github/workflows/bundle-maven-release.yaml@e672d10f4e2f0b285a838c65571a3435d2b6233f # temp branch
+    uses: Forsakringskassan/.github/.github/workflows/bundle-maven-release.yaml@f1a6aa2e3edc84c8d8eecf668633921fc36f8943 # temp branch
