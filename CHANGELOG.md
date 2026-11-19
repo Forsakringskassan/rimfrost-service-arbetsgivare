@@ -2,6 +2,19 @@
 
 Changelog of rimfrost-service-arbetsgivare.
 
+## 1.1.3 (2026-11-06)
+
+### Bug Fixes
+
+-  **deps**  update dependency se.fk.rimfrost.api.arbetsgivare:rimfrost-arbetsgivare-api-jaxrs-spec to v2.0.3 ([e66e5](https://github.com/Forsakringskassan/rimfrost-service-arbetsgivare/commit/e66e580f687775d) renovate[bot])  
+
+### Dependency updates
+
+- update forsakringskassan/.github digest to cbc0db8 ([06445](https://github.com/Forsakringskassan/rimfrost-service-arbetsgivare/commit/06445bdf0f274e6) renovate[bot])  
+- update forsakringskassan/.github digest to 625efb1 ([7b669](https://github.com/Forsakringskassan/rimfrost-service-arbetsgivare/commit/7b6695ab2c1c431) renovate[bot])  
+### Other changes
+
+
 ## 1.1.2 (2026-10-26)
 
 ### Bug Fixes
