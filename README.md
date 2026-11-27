@@ -1,4 +1,4 @@
-# arbetsgivare
+# rimfrost-service-arbetsgivare
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
@@ -37,14 +37,14 @@ The application, packaged as an _über-jar_, is now runnable using `java -jar ta
 
 ## Packaging and running as docker
 
-Build a docker image _rimfrost/masterdata/employer:latest_ :
+Build a docker image _rimfrost/masterdata/rimfrost-service-arbetsgivare:latest_ :
 ```shell script
 ./mvnw clean package
 ```
 Launch container:
 
 ```shell script
-docker run -p 8080:8080 rimfrost/masterdata/employer
+docker run -p 8080:8080 rimfrost/masterdata/rimfrost-service-arbetsgivare
 ```
 
 ## Creating a native executable
@@ -61,7 +61,7 @@ Or, if you don't have GraalVM installed, you can run the native executable build
 ./mvnw package -Dnative -Dquarkus.native.container-build=true
 ```
 
-You can then execute your native executable with: `./target/arbetsgivare-1.0.0-SNAPSHOT-runner`
+You can then execute your native executable with: `./target/rimfrost-service-arbetsgivare-1.0.0-SNAPSHOT-runner`
 
 If you want to learn more about building native executables, please consult <https://quarkus.io/guides/maven-tooling>.
 
