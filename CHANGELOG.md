@@ -2,6 +2,18 @@
 
 Changelog of rimfrost-service-arbetsgivare.
 
+## 1.1.4 (2026-11-27)
+
+### Bug Fixes
+
+-  update comments ([9d3ba](https://github.com/Forsakringskassan/rimfrost-service-arbetsgivare/commit/9d3bac639ea0d91) Nils Elveros)  
+-  update image name to rimfrost-service-arbetsgivare ([4b50e](https://github.com/Forsakringskassan/rimfrost-service-arbetsgivare/commit/4b50e35eaf8cbaf) Nils Elveros)  
+
+### Dependency updates
+
+- update forsakringskassan/.github digest to 1c8b290 ([f67ca](https://github.com/Forsakringskassan/rimfrost-service-arbetsgivare/commit/f67ca7f92213793) renovate[bot])  
+## rimfrost-1_3 (2026-11-19)
+
 ## 1.1.3 (2026-11-06)
 
 ### Bug Fixes
