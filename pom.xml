@@ -9,7 +9,7 @@
   </parent>
 
   <groupId>fk.rimfrost</groupId>
-  <artifactId>arbetsgivare</artifactId>
+  <artifactId>rimfrost-service-arbetsgivare</artifactId>
   <version>1.0.0-SNAPSHOT</version>
 
   <properties>
